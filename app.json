@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "StrmlyApp",
+    "slug": "strmlyapp",
+    "scheme": "strmlyapp",
+    "owner": "saishma_chennam",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.strmly.app"
+    },
+    "web": {
+      "favicon": "./assets/logo.png"
+    },
+    "plugins": [
+      "expo-web-browser",
+      "react-native-video"
+    ],
+    "extra": {
+      "expoClientId": "1062766537969-3asll1gn6jb0ojjjt3ur57nc5o8l2sub.apps.googleusercontent.com",
+      "androidClientId": "1062766537969-hh9h2j30chj4flepjc3j3mqo4c78btav.apps.googleusercontent.com",
+      "redirectUri": "https://auth.expo.io/@saishma_chennam/strmlyapp"
+    }
+  }
+}
